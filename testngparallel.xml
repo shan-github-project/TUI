@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GDN_Acco_Only" thread-count="2" parallel="tests">
+
+<!-- <suite name="GDN_Acco_Only"> -->
+
+  <listeners>
+  <listener class-name="GDN_Acco_only.Listener"/>
+  </listeners>
+   
+   <test name="ACCO">
+<parameter name="browser" value="firefox"/>
+   <classes>
+       <class name="GDN_Acco_Only.ACCO"/>
+  </classes>
+</test>
+
+  <test name="SE_PROD_StartPageRender1_Configurator">
+    <classes>
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Homepage">
+   <classes>
+       <class name="GDN_Acco_Only.Homepage"/>
+  </classes>
+</test>
+<test name="Search_Icon">
+   <classes>
+        <class name="GDN_Acco_Only.Test_Search_Icon"/>
+  </classes>
+</test>
+
+ <test name="TU_Book_Ticket">
+   <classes>
+        <class name="GDN_Acco_Only.TU_Book_Ticket"/>
+  </classes>
+</test>
+</suite> <!-- Suite -->

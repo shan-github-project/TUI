@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [GDN_Acco_Only]">
+  <listeners>
+    <listener class-name="GDN_Acco_only.Listener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="SE_PROD_StartPageRender1_Configurator(failed)">
+    <classes>
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="ValidateallDestinationList"/>
+          <include name="initialize"/>
+          <include name="ValidateButtonText"/>
+          <include name="ValidatedeapatureList"/>
+          <include name="ValidateDirectFlyChkBox"/>
+          <include name="teardown"/>
+          <include name="pageinit"/>
+          <include name="Validateadultlist"/>
+          <include name="ValidateSelectedDate"/>
+          <include name="ValidatetravelLength"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- SE_PROD_StartPageRender1_Configurator(failed) -->
+  <test thread-count="5" verbose="0" name="Search_Icon(failed)">
+    <classes>
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="validationofbookBttn"/>
+          <include name="teardown"/>
+          <include name="searchButtonValidation"/>
+          <include name="searchResultAten"/>
+          <include name="bookbttncolorvalidation"/>
+          <include name="clicklowpriceplan"/>
+          <include name="bookbttnclicked"/>
+          <include name="initialize"/>
+          <include name="clickbackbttn"/>
+          <include name="clicklowpriceblock"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+    </classes>
+  </test> <!-- Search_Icon(failed) -->
+  <test thread-count="5" verbose="0" name="ACCO(failed)">
+    <classes>
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="selectTravelLenght"/>
+          <include name="DepaturePlaceSearched"/>
+          <include name="validatedHotelcard"/>
+          <include name="searchkaronBeach"/>
+          <include name="selectDays"/>
+          <include name="allDestinationSearched"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="adultSearched"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+    </classes>
+  </test> <!-- ACCO(failed) -->
+  <test thread-count="5" verbose="0" name="TU_Book_Ticket(failed)">
+    <classes>
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="firstName2"/>
+          <include name="adult2"/>
+          <include name="lastName"/>
+          <include name="telePhone"/>
+          <include name="yearDOB"/>
+          <include name="dayDOB"/>
+          <include name="adultclicked"/>
+          <include name="bookbttnclicked"/>
+          <include name="verifyingbookbttndisplaying"/>
+          <include name="Town"/>
+          <include name="teardown"/>
+          <include name="doubeRoomClicked"/>
+          <include name="info"/>
+          <include name="clickedContinue"/>
+          <include name="forsattclicked"/>
+          <include name="lastName2"/>
+          <include name="backbutton"/>
+          <include name="searchaten"/>
+          <include name="clciksecondhotelcard"/>
+          <include name="email"/>
+          <include name="selectMale"/>
+          <include name="monthDOB"/>
+          <include name="address"/>
+          <include name="monthofDob"/>
+          <include name="validatehotelpageinit"/>
+          <include name="roomclicked"/>
+          <include name="dateofDob"/>
+          <include name="firstName"/>
+          <include name="bokaclicked"/>
+          <include name="yearofDob"/>
+          <include name="initialize"/>
+          <include name="validateathenhotel"/>
+          <include name="lowPricecellclicked"/>
+          <include name="pageheadingvalidation"/>
+          <include name="postCode"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+    </classes>
+  </test> <!-- TU_Book_Ticket(failed) -->
+</suite> <!-- Failed suite [GDN_Acco_Only] -->

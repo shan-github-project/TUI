@@ -1,0 +1,456 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 62, Failures: 56, Errors: 0, Skipped: 0, Time elapsed: 894.576 s <<< FAILURE! - in TestSuite
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateButtonText  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateButtonText(SE_PROD_StartPageRender1_Configurator.java:142)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateDirectFlyChkBox  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateDirectFlyChkBox(SE_PROD_StartPageRender1_Configurator.java:148)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateSelectedDate  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateSelectedDate(SE_PROD_StartPageRender1_Configurator.java:136)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.Validateadultlist  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.Validateadultlist(SE_PROD_StartPageRender1_Configurator.java:112)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateallDestinationList  Time elapsed: 10.111 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"button[class*=panel-close]"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73343ce99a5e476c42f84d9aa14a6009
+*** Element info: {Using=css selector, value=button[class*=panel-close]}
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidateallDestinationList(SE_PROD_StartPageRender1_Configurator.java:89)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidatedeapatureList  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidatedeapatureList(SE_PROD_StartPageRender1_Configurator.java:66)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidatetravelLength  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.ValidatetravelLength(SE_PROD_StartPageRender1_Configurator.java:125)
+
+GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.pageinit  Time elapsed: 12.611 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 73343ce99a5e476c42f84d9aa14a6009
+	at GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator.pageinit(SE_PROD_StartPageRender1_Configurator.java:57)
+
+GDN_Acco_Only.Test_Search_Icon.bookbttnclicked  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.Test_Search_Icon.bookbttnclicked(Test_Search_Icon.java:80)
+
+GDN_Acco_Only.Test_Search_Icon.bookbttncolorvalidation  Time elapsed: 10.031 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class='ProgressbarNavigation__summaryButton'] button[aria-label='button']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4d9661c1abe4868de3f7fd85a2977b4
+*** Element info: {Using=css selector, value=div[class='ProgressbarNavigation__summaryButton'] button[aria-label='button']}
+	at GDN_Acco_Only.Test_Search_Icon.bookbttncolorvalidation(Test_Search_Icon.java:103)
+
+GDN_Acco_Only.Test_Search_Icon.clickbackbttn  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.Test_Search_Icon.clickbackbttn(Test_Search_Icon.java:92)
+
+GDN_Acco_Only.Test_Search_Icon.clicklowpriceblock  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.Test_Search_Icon.clicklowpriceblock(Test_Search_Icon.java:97)
+
+GDN_Acco_Only.Test_Search_Icon.clicklowpriceplan  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.Test_Search_Icon.clicklowpriceplan(Test_Search_Icon.java:85)
+
+GDN_Acco_Only.Test_Search_Icon.searchButtonValidation  Time elapsed: 10.158 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4d9661c1abe4868de3f7fd85a2977b4
+	at GDN_Acco_Only.Test_Search_Icon.searchButtonValidation(Test_Search_Icon.java:53)
+
+GDN_Acco_Only.Test_Search_Icon.searchResultAten  Time elapsed: 10.038 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='https://www.tui.se/resa/grekland/aten/hotell/']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4d9661c1abe4868de3f7fd85a2977b4
+*** Element info: {Using=css selector, value=a[href*='https://www.tui.se/resa/grekland/aten/hotell/']}
+	at GDN_Acco_Only.Test_Search_Icon.searchResultAten(Test_Search_Icon.java:63)
+
+GDN_Acco_Only.Test_Search_Icon.validationofbookBttn  Time elapsed: 10.016 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"img[alt='Amalia Athens']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4d9661c1abe4868de3f7fd85a2977b4
+*** Element info: {Using=css selector, value=img[alt='Amalia Athens']}
+	at GDN_Acco_Only.Test_Search_Icon.validationofbookBttn(Test_Search_Icon.java:68)
+
+GDN_Acco_Only.ACCO.DepaturePlaceSearched  Time elapsed: 13.036 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[class='panel-input col-airports']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=css selector, value=[class='panel-input col-airports']}
+	at GDN_Acco_Only.ACCO.DepaturePlaceSearched(ACCO.java:75)
+
+GDN_Acco_Only.ACCO.adultSearched  Time elapsed: 13.056 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#paxes"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=id, value=paxes}
+	at GDN_Acco_Only.ACCO.adultSearched(ACCO.java:107)
+
+GDN_Acco_Only.ACCO.allDestinationSearched  Time elapsed: 13.066 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#countries"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=id, value=countries}
+	at GDN_Acco_Only.ACCO.allDestinationSearched(ACCO.java:89)
+
+GDN_Acco_Only.ACCO.searchkaronBeach  Time elapsed: 10.041 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+	at GDN_Acco_Only.ACCO.searchkaronBeach(ACCO.java:62)
+
+GDN_Acco_Only.ACCO.selectDays  Time elapsed: 509.519 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: div[id='date'] div[class='col-text'] (tried for 500 second(s) with 500 milliseconds interval)
+	at GDN_Acco_Only.ACCO.selectDays(ACCO.java:136)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[id='date'] div[class='col-text']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=css selector, value=div[id='date'] div[class='col-text']}
+	at GDN_Acco_Only.ACCO.selectDays(ACCO.java:136)
+
+GDN_Acco_Only.ACCO.selectTravelLenght  Time elapsed: 13.055 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#durations"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=id, value=durations}
+	at GDN_Acco_Only.ACCO.selectTravelLenght(ACCO.java:124)
+
+GDN_Acco_Only.ACCO.validatedHotelcard  Time elapsed: 13.039 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[class='ResultListItemV2__location']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0936c5725eb82b814e567d6a28bbdd42
+*** Element info: {Using=css selector, value=[class='ResultListItemV2__location']}
+	at GDN_Acco_Only.ACCO.validatedHotelcard(ACCO.java:169)
+
+GDN_Acco_Only.TU_Book_Ticket.Town  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.Town(TU_Book_Ticket.java:190)
+
+GDN_Acco_Only.TU_Book_Ticket.address  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.address(TU_Book_Ticket.java:180)
+
+GDN_Acco_Only.TU_Book_Ticket.adult2  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.adult2(TU_Book_Ticket.java:205)
+
+GDN_Acco_Only.TU_Book_Ticket.adultclicked  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.adultclicked(TU_Book_Ticket.java:142)
+
+GDN_Acco_Only.TU_Book_Ticket.backbutton  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.backbutton(TU_Book_Ticket.java:137)
+
+GDN_Acco_Only.TU_Book_Ticket.bokaclicked  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.bokaclicked(TU_Book_Ticket.java:147)
+
+GDN_Acco_Only.TU_Book_Ticket.bookbttnclicked  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.bookbttnclicked(TU_Book_Ticket.java:85)
+
+GDN_Acco_Only.TU_Book_Ticket.clciksecondhotelcard  Time elapsed: 10.069 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='https://www.tui.se/resa/grekland/aten/hotell/']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=a[href*='https://www.tui.se/resa/grekland/aten/hotell/']}
+	at GDN_Acco_Only.TU_Book_Ticket.clciksecondhotelcard(TU_Book_Ticket.java:69)
+
+GDN_Acco_Only.TU_Book_Ticket.clickedContinue  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.clickedContinue(TU_Book_Ticket.java:243)
+
+GDN_Acco_Only.TU_Book_Ticket.dateofDob  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.dateofDob(TU_Book_Ticket.java:175)
+
+GDN_Acco_Only.TU_Book_Ticket.dayDOB  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.dayDOB(TU_Book_Ticket.java:228)
+
+GDN_Acco_Only.TU_Book_Ticket.doubeRoomClicked  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.doubeRoomClicked(TU_Book_Ticket.java:132)
+
+GDN_Acco_Only.TU_Book_Ticket.email  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.email(TU_Book_Ticket.java:200)
+
+GDN_Acco_Only.TU_Book_Ticket.firstName  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.firstName(TU_Book_Ticket.java:157)
+
+GDN_Acco_Only.TU_Book_Ticket.firstName2  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.firstName2(TU_Book_Ticket.java:211)
+
+GDN_Acco_Only.TU_Book_Ticket.forsattclicked  Time elapsed: 10.015 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class='ProgressbarNavigation__summaryButton'] button[aria-label='button']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=div[class='ProgressbarNavigation__summaryButton'] button[aria-label='button']}
+	at GDN_Acco_Only.TU_Book_Ticket.forsattclicked(TU_Book_Ticket.java:107)
+
+GDN_Acco_Only.TU_Book_Ticket.info  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.info(TU_Book_Ticket.java:232)
+
+GDN_Acco_Only.TU_Book_Ticket.lastName  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.lastName(TU_Book_Ticket.java:161)
+
+GDN_Acco_Only.TU_Book_Ticket.lastName2  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.lastName2(TU_Book_Ticket.java:216)
+
+GDN_Acco_Only.TU_Book_Ticket.lowPricecellclicked  Time elapsed: 10.039 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"td[class*=UI__lowPriceCell]"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=td[class*=UI__lowPriceCell]}
+	at GDN_Acco_Only.TU_Book_Ticket.lowPricecellclicked(TU_Book_Ticket.java:90)
+
+GDN_Acco_Only.TU_Book_Ticket.monthDOB  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.monthDOB(TU_Book_Ticket.java:224)
+
+GDN_Acco_Only.TU_Book_Ticket.monthofDob  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.monthofDob(TU_Book_Ticket.java:170)
+
+GDN_Acco_Only.TU_Book_Ticket.pageheadingvalidation  Time elapsed: 10.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"h1[aria-label='page heading']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=h1[aria-label='page heading']}
+	at GDN_Acco_Only.TU_Book_Ticket.pageheadingvalidation(TU_Book_Ticket.java:114)
+
+GDN_Acco_Only.TU_Book_Ticket.postCode  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at GDN_Acco_Only.TU_Book_Ticket.postCode(TU_Book_Ticket.java:185)
+
+GDN_Acco_Only.TU_Book_Ticket.roomclicked  Time elapsed: 10.032 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='/se/hitta-resa/boka/rumochmat']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=a[href*='/se/hitta-resa/boka/rumochmat']}
+	at GDN_Acco_Only.TU_Book_Ticket.roomclicked(TU_Book_Ticket.java:127)
+
+GDN_Acco_Only.TU_Book_Ticket.searchaten  Time elapsed: 10.051 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: headless chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+	at GDN_Acco_Only.TU_Book_Ticket.searchaten(TU_Book_Ticket.java:62)
+
+GDN_Acco_Only.TU_Book_Ticket.selectMale  Time elapsed: 10.056 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class='LeadAdult__selectOption inputs__selectDropdown'] select[aria-label='Select']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=div[class='LeadAdult__selectOption inputs__selectDropdown'] select[aria-label='Select']}
+	at GDN_Acco_Only.TU_Book_Ticket.selectMale(TU_Book_Ticket.java:152)
+
+GDN_Acco_Only.TU_Book_Ticket.telePhone  Time elapsed: 10.017 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#paxInfoTelephone"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=#paxInfoTelephone}
+	at GDN_Acco_Only.TU_Book_Ticket.telePhone(TU_Book_Ticket.java:194)
+
+GDN_Acco_Only.TU_Book_Ticket.validateathenhotel  Time elapsed: 10.071 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class*='headerTitle '] h1 span"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=div[class*='headerTitle '] h1 span}
+	at GDN_Acco_Only.TU_Book_Ticket.validateathenhotel(TU_Book_Ticket.java:101)
+
+GDN_Acco_Only.TU_Book_Ticket.validatehotelpageinit  Time elapsed: 10.072 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[aria-label='HOTEL_DETAILS']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=a[aria-label='HOTEL_DETAILS']}
+	at GDN_Acco_Only.TU_Book_Ticket.validatehotelpageinit(TU_Book_Ticket.java:95)
+
+GDN_Acco_Only.TU_Book_Ticket.verifyingbookbttndisplaying  Time elapsed: 10.081 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[class*='js-btn-book']"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=a[class*='js-btn-book']}
+	at GDN_Acco_Only.TU_Book_Ticket.verifyingbookbttndisplaying(TU_Book_Ticket.java:75)
+
+GDN_Acco_Only.TU_Book_Ticket.yearDOB  Time elapsed: 10.015 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#paxInfoDobYearundefined"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=#paxInfoDobYearundefined}
+	at GDN_Acco_Only.TU_Book_Ticket.yearDOB(TU_Book_Ticket.java:220)
+
+GDN_Acco_Only.TU_Book_Ticket.yearofDob  Time elapsed: 10.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#paxInfoDobYear0"}
+  (Session info: headless chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RTTHD45C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ZEESHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58ca85cb2ec296371037cf3432c0a834
+*** Element info: {Using=css selector, value=#paxInfoDobYear0}
+	at GDN_Acco_Only.TU_Book_Ticket.yearofDob(TU_Book_Ticket.java:165)
+

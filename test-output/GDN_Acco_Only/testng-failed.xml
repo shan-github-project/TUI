@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [GDN_Acco_Only]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="GDN_Acco_only.Listener"/>
+  </listeners>
+  <test name="ACCO">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="GDN_Acco_Only.ACCO"/>
+    </classes>
+  </test> <!-- ACCO -->
+  <test name="SE_PROD_StartPageRender1_Configurator">
+    <classes>
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator"/>
+    </classes>
+  </test> <!-- SE_PROD_StartPageRender1_Configurator -->
+  <test name="Homepage">
+    <classes>
+      <class name="GDN_Acco_Only.Homepage"/>
+    </classes>
+  </test> <!-- Homepage -->
+  <test name="Search_Icon">
+    <classes>
+      <class name="GDN_Acco_Only.Test_Search_Icon"/>
+    </classes>
+  </test> <!-- Search_Icon -->
+  <test name="TU_Book_Ticket">
+    <classes>
+      <class name="GDN_Acco_Only.TU_Book_Ticket"/>
+    </classes>
+  </test> <!-- TU_Book_Ticket -->
+  <test name="ACCO(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="GDN_Acco_Only.Homepage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Homepage -->
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="Pageinit"/>
+          <include name="selectTravelLenght"/>
+          <include name="DepaturePlaceSearched"/>
+          <include name="validatedHotelcard"/>
+          <include name="validatePriceHotellCard"/>
+          <include name="searchkaronBeach"/>
+          <include name="selectDays"/>
+          <include name="allDestinationSearched"/>
+          <include name="initialize"/>
+          <include name="adultSearched"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- ACCO(failed) -->
+  <test name="SE_PROD_StartPageRender1_Configurator(failed)" parallel="tests">
+    <classes>
+      <class name="GDN_Acco_Only.Homepage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Homepage -->
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="ValidateallDestinationList"/>
+          <include name="initialize"/>
+          <include name="ValidateButtonText"/>
+          <include name="ValidatedeapatureList"/>
+          <include name="ValidateDirectFlyChkBox"/>
+          <include name="pageinit"/>
+          <include name="Validateadultlist"/>
+          <include name="ValidateSelectedDate"/>
+          <include name="ValidatetravelLength"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- SE_PROD_StartPageRender1_Configurator(failed) -->
+  <test name="Homepage(failed)" parallel="tests">
+    <classes>
+      <class name="GDN_Acco_Only.Homepage">
+        <methods>
+          <include name="initialize"/>
+          <include name="RandomDate"/>
+          <include name="Pageinit"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Homepage -->
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- Homepage(failed) -->
+  <test name="Search_Icon(failed)" parallel="tests">
+    <classes>
+      <class name="GDN_Acco_Only.Homepage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Homepage -->
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="validationofbookBttn"/>
+          <include name="searchButtonValidation"/>
+          <include name="searchResultAten"/>
+          <include name="bookbttncolorvalidation"/>
+          <include name="clicklowpriceplan"/>
+          <include name="bookbttnclicked"/>
+          <include name="pageInit"/>
+          <include name="initialize"/>
+          <include name="clickbackbttn"/>
+          <include name="clicklowpriceblock"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- Search_Icon(failed) -->
+  <test name="TU_Book_Ticket(failed)" parallel="tests">
+    <classes>
+      <class name="GDN_Acco_Only.Homepage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Homepage -->
+      <class name="GDN_Acco_Only.ACCO">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.ACCO -->
+      <class name="GDN_Acco_Only.Test_Search_Icon">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.Test_Search_Icon -->
+      <class name="GDN_Acco_Only.TU_Book_Ticket">
+        <methods>
+          <include name="firstName2"/>
+          <include name="adult2"/>
+          <include name="lastName"/>
+          <include name="telePhone"/>
+          <include name="yearDOB"/>
+          <include name="dayDOB"/>
+          <include name="adultclicked"/>
+          <include name="bookbttnclicked"/>
+          <include name="verifyingbookbttndisplaying"/>
+          <include name="Town"/>
+          <include name="doubeRoomClicked"/>
+          <include name="info"/>
+          <include name="clickedContinue"/>
+          <include name="pageinit"/>
+          <include name="forsattclicked"/>
+          <include name="lastName2"/>
+          <include name="backbutton"/>
+          <include name="searchaten"/>
+          <include name="clciksecondhotelcard"/>
+          <include name="email"/>
+          <include name="selectMale"/>
+          <include name="monthDOB"/>
+          <include name="address"/>
+          <include name="monthofDob"/>
+          <include name="validatehotelpageinit"/>
+          <include name="roomclicked"/>
+          <include name="dateofDob"/>
+          <include name="firstName"/>
+          <include name="bokaclicked"/>
+          <include name="yearofDob"/>
+          <include name="initialize"/>
+          <include name="validateathenhotel"/>
+          <include name="lowPricecellclicked"/>
+          <include name="pageheadingvalidation"/>
+          <include name="postCode"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.TU_Book_Ticket -->
+      <class name="GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- GDN_Acco_Only.SE_PROD_StartPageRender1_Configurator -->
+    </classes>
+  </test> <!-- TU_Book_Ticket(failed) -->
+</suite> <!-- Failed suite [GDN_Acco_Only] -->
