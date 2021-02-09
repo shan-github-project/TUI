@@ -6,7 +6,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 	import java.util.List;
-	import java.util.stream.Collectors;
+import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 	import org.apache.logging.log4j.LogManager;
 	import org.apache.logging.log4j.Logger;
@@ -57,8 +58,6 @@ import org.testng.annotations.Test;
 		         driver = new RemoteWebDriver(new URL(nodeURL),capabilities);
 		        
 		    }
-			
-			
 			@Test
 			public void Pageinit() throws IOException, InterruptedException
 			{
@@ -86,6 +85,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void DepaturePlaceSearched() throws InterruptedException
 			{
+				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 				hl =new Hotell(driver);
 				hl.getCountry().click();
 				Thread.sleep(3000);
