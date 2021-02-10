@@ -98,6 +98,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void allDestinationSearched() throws InterruptedException
 			{
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 				hl.getCountries().click();
 				hl.getSearchInput().sendKeys("Portugal");
 				builder.moveToElement(hl.getActiveIndex()).click().build().perform();
@@ -113,7 +114,8 @@ import org.testng.annotations.Test;
 			@Test
 			public void adultSearched() throws InterruptedException
 			{
-				hl.getPersonCount().click();
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+                hl.getPersonCount().click();
 				Thread.sleep(3000);
 				Assert.assertEquals("2", hl.getAdultCount().getText());
 				hl.getChildrenCount().click();
@@ -128,6 +130,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void selectTravelLenght() throws InterruptedException
 			{
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 				hl.getDuration().click();
 				hl.getRadioButton().click();
 				hl.getClose().click();
@@ -137,6 +140,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void selectDays() throws InterruptedException
 			{
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 				hl.getDate().click();
 				Assert.assertEquals(5, hl.getdayscnt().size());
 				Assert.assertTrue(hl.getSelectedDays().isSelected());
@@ -166,6 +170,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void validatedHotelcard() throws InterruptedException
 			{	
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 			   log.info("Navigated to HotelCardPage");
 			   hc=new HotelCard(driver);
 			   Assert.assertEquals("Canico do Baixo, Madeira, Portugal", hc.getSearchCard().getText());
@@ -174,7 +179,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void validatePriceHotellCard() throws InterruptedException
 			{
-				Thread.sleep(3000);	
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 			   List<WebElement> price = driver.findElements(By.cssSelector("[class='ResultListItemV2__value']"));
 
 			// extract the prices from the price elements and store in a List
