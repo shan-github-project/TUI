@@ -85,7 +85,7 @@ import org.testng.annotations.Test;
 			@Test
 			public void DepaturePlaceSearched() throws InterruptedException
 			{
-				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 				hl =new Hotell(driver);
 				hl.getCountry().click();
 				Thread.sleep(3000);
@@ -114,9 +114,9 @@ import org.testng.annotations.Test;
 			@Test
 			public void adultSearched() throws InterruptedException
 			{
-				driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+				
                 hl.getPersonCount().click();
-				Thread.sleep(3000);
+                driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 				Assert.assertEquals("2", hl.getAdultCount().getText());
 				hl.getChildrenCount().click();
 				//hl.getChildAge();
